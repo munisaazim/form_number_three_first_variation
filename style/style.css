@@ -179,6 +179,11 @@ img.telephone
 /*Map*/
 .adressContainer{
     width:100%;
+    display: flex;
+    flex-flow: raw;
+}
+.mapContainer{
+width: 50%;
 }
 .location p{
 color:black;
@@ -191,7 +196,13 @@ color:black;
    font-weight: 900;
 }
 .location{
-    width:100%;
+    width:50%;
     display: flex;
+    flex-flow: column;
+}
+.street{
+    width: 100%%;
+    display: flex;
+    justify-content: center;
     flex-flow: column;
 }
