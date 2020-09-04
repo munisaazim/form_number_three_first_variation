@@ -177,6 +177,13 @@ img.telephone
 }
 }
 /*Map*/
-.adressMap{
+.adressContainer{
     width:100%;
+}
+.adressContainer h2{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+   color: #33475B;
+   font-weight: 900;
 }
