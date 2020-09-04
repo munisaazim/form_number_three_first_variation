@@ -9,12 +9,14 @@
 </head>
 <body>
     <div class="container">
+        <!--Header-->
     <div class="header image">
         <div class="title">
             <h1>Get in touch</h1>
             <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
         </div>
     </div>
+    <!--Card (Card One and Card two)-->
     <div class="card">
         <div class="cardOne">
             <img src="https://www.hubspot.com/hubfs/Contact%20Us/phone.svg" alt="phone" class="telephone">
@@ -31,6 +33,27 @@
             <a href="#">Contact Support</a>
         </div>
     </div>
+          <!--Address-->
+          <div class="adressContainer">
+            <h2>Connect with one of our global offices</h2>
+            <div class="addressMap">
+                <div id="map" style="height: 100px;">
+
+                </div>
+            </div>
+        </div>
 </div>
+
+<script>
+    function initMap(){
+        var location={lat: 41.299496, lng: 69.240074};
+        var map=new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: location
+        });
+        }      
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQnIhNYNsoi40yyapmsDTwJiSv5FpG114&callback=initMap"></script>
 </body>
 </html>
