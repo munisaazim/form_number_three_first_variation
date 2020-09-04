@@ -180,6 +180,9 @@ img.telephone
 .adressContainer{
     width:100%;
 }
+.location p{
+color:black;
+}
 .adressContainer h2{
     margin: 50px 0px;
     display: flex;
@@ -189,5 +192,6 @@ img.telephone
 }
 .location{
     width:100%;
-    
+    display: flex;
+    flex-flow: column;
 }
