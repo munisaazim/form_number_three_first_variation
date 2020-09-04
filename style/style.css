@@ -10,9 +10,9 @@
 /*Header with photo*/
 .header{
 
-    background-image: url('../image/banner.jpg');
+    background: url('../image/banner.jpg') no-repeat center center fixed;
     height: 450px;
-    
+    background-size: cover;
 }
 .image{
     background-color: #587FCE;
@@ -155,4 +155,24 @@ img.telephone
     background-color: rgb(255, 188, 172);
     color: #33475b;
 
+}
+/*Media for card*/
+@media(max-width:767px){
+    .title{
+        width:100%;
+    }
+  .card{
+      flex-flow: column;
+     justify-content: center;
+     align-items: center;
+     top: -30px;
+  }
+  .cardOne{
+      width: 80%;
+      margin-right: 0px;
+      margin-bottom: 30px;
+  }
+  .cardTwo{
+    width: 80%;
+}
 }
