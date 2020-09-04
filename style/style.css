@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
 *{
     font-family: 'Mulish', sans-serif;
     padding: 0;
@@ -180,25 +180,22 @@ img.telephone
 .adressContainer{
     width:100%;
 }
-.mapContainer{
-    width: 69%;
-    display: flex;
-    margin: 0 auto;
-  
-    border: #33475b 2px solid;
-}
-.addressMap{
-    width:60%;
-}
-.location p{
-color:black;
-}
 .adressContainer h2{
-    margin: 50px 0px;
+    padding: 2.25em 0 1em;
     display: flex;
     justify-content: center;
    color: #33475B;
    font-weight: 900;
+   padding-bottom: 4em;
+}
+.mapContainer{
+    width: 68%;
+    display: flex;
+    margin: 0 auto;
+    border: #33475b 2px solid;
+}
+.addressMap{
+    width:60%;
 }
 .location{
     width:35%;
@@ -207,4 +204,61 @@ color:black;
     margin-left: 30px;
     margin-top: 60px;
 }
+.street{
+    margin-bottom: 2rem;
+}
+
+.street h3{
+    color: #33475B;
+    font-weight: 800;
+    font-size: 1.375rem;
+    line-height: 1.36364em;
+    margin-bottom: 15px;
+}
+.street p{
+    color:#33475B;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+.phone{
+    margin-bottom: 2rem;
+}
+.phone h3{
+    color: #33475B;
+    font-weight: 800;
+    font-size: 1.375rem;
+    line-height: 1.36364em;
+    margin-bottom: 15px;
+}
+.phone p{
+    color:#33475B;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+.phone p.fax{
+    margin-top: 20px;
+}
+.phone p span{
+    color: #33475B;
+    font-weight: 800;
+}
+.press h3{
+    color: #33475B;
+    font-weight: 800;
+    font-size: 1.375rem;
+    line-height: 1.36364em;
+    margin-bottom: 15px;
+}
+.press a{
+    text-decoration:none;
+    color: #007A8C;
+    font-weight: 700;
+}
+.press a:hover{
+ text-decoration-line: underline;
+    text-decoration-color:#007A8C;
+}
+
 
