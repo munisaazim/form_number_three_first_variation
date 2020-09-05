@@ -341,9 +341,9 @@ input.inputArrow{
 [id^=btn]:checked+ label.show2{
     display: none;
 }
+/*Hovering child element but style parent element*/
 
-
-label.show2{
+/* label.show2{
 display: block;
 position: relative;
 top: -100px;
@@ -354,3 +354,11 @@ label.show2 i.fa-angle-right{
     font-weight: 700;
     color:#00A4BD;
 }
+input.inputArrow2{
+    position: relative;
+    left:-22px;
+    top:-200px;    
+}
+[id^=btn2]:checked~label.show i{
+    display: none;
+} */
