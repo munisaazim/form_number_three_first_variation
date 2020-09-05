@@ -309,7 +309,7 @@ label.show{
     display: flex;
   
 }
-span.labelArrow{
+.fa-angle-down{
     font-size:30px;
     font-weight: 700;
     color:#00A4BD;
@@ -335,7 +335,9 @@ input.inputArrow{
     cursor: pointer;
 
 }
-.fa-anglr
-[id^=btn]:checked+.itemParagraph{
+[id^=btn]:checked~.itemParagraph{
     display: block;
+}
+[id^=btn]:checked+ i{
+    display: none;
 }
