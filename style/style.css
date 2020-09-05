@@ -294,4 +294,25 @@ img.telephone
         display: block;
     }
 }
+input.inputArrow{
+    position: relative;
+    left:20px;
+    top:-40px;
+    display: none;
+}
+.itemParagraph{
+    display: none;
+}
+.show{
+    display: block;
+    color: black;
+    line-height: 70px;
+    font-weight: 600;
+    padding: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
 
+}
+[id^=btn]:checked+.itemParagraph{
+    display: block;
+}
