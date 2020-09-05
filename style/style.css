@@ -301,7 +301,7 @@ img.telephone
 }
 label.show{
     position: relative;
-    top:-50px;
+    top:-45px;
     left: -45px;
    
 }
@@ -340,4 +340,17 @@ input.inputArrow{
 }
 [id^=btn]:checked+ label.show2{
     display: none;
+}
+
+
+label.show2{
+display: block;
+position: relative;
+top: -100px;
+left: -20px;
+}
+label.show2 i.fa-angle-right{
+    font-size:30px;
+    font-weight: 700;
+    color:#00A4BD;
 }
