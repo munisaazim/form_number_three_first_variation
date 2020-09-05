@@ -338,6 +338,6 @@ input.inputArrow{
 [id^=btn]:checked~.itemParagraph{
     display: block;
 }
-[id^=btn]:checked+ i{
+[id^=btn]:checked+ label.show2{
     display: none;
 }
