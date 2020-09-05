@@ -192,7 +192,7 @@ img.telephone
     width: 68%;
     display: flex;
     margin: 0 auto;
-    border: #33475b 2px solid;
+    border: #33475b 1px solid;
 }
 .addressMap{
     width:60%;
@@ -244,6 +244,9 @@ img.telephone
     color: #33475B;
     font-weight: 800;
 }
+.press{
+    margin-bottom: 2rem;
+}
 .press h3{
     color: #33475B;
     font-weight: 800;
@@ -260,5 +263,19 @@ img.telephone
  text-decoration-line: underline;
     text-decoration-color:#007A8C;
 }
-
+@media(max-width:767px){
+    .mapContainer{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        border: #33475b 1px solid;
+        flex-flow: column;
+    }
+    .addressMap{
+        width: 100%;
+    }
+    .location{
+        width: 100%;
+    }
+}
 
