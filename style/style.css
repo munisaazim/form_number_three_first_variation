@@ -297,22 +297,30 @@ img.telephone
 /*Office Container*/
 .officeContainer{
     margin-top: 90px;
-    margin-left: 16em;
+    margin-left: 17em;
 }
 label.show{
     position: relative;
     top:-50px;
-    left: -35px;
+    left: -45px;
+   
 }
 .officeContainer h3{
     display: flex;
   
 }
+span.labelArrow{
+    font-size:30px;
+    font-weight: 700;
+    color:#00A4BD;
+
+}
 input.inputArrow{
     position: relative;
-    left:20px;
+    left:15px;
     top:-40px;
     display: none;
+   
 }
 .itemParagraph{
     display: none;
@@ -327,6 +335,7 @@ input.inputArrow{
     cursor: pointer;
 
 }
+.fa-anglr
 [id^=btn]:checked+.itemParagraph{
     display: block;
 }
