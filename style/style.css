@@ -294,6 +294,20 @@ img.telephone
         display: block;
     }
 }
+/*Office Container*/
+.officeContainer{
+    margin-top: 90px;
+    margin-left: 16em;
+}
+label.show{
+    position: relative;
+    top:-50px;
+    left: -35px;
+}
+.officeContainer h3{
+    display: flex;
+  
+}
 input.inputArrow{
     position: relative;
     left:20px;
