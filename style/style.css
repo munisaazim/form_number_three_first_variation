@@ -263,6 +263,9 @@ img.telephone
  text-decoration-line: underline;
     text-decoration-color:#007A8C;
 }
+.breakLine , .breakLineTwo{
+    display: none;
+}
 @media(max-width:767px){
     .mapContainer{
         width: 80%;
@@ -275,7 +278,20 @@ img.telephone
         width: 100%;
     }
     .location{
-        width: 100%;
+        width: 80%;
+        margin-right:5px;
+    }
+}
+@media(max-width:350px)
+{
+    .breakLine{
+        display: block;
+    }
+}
+@media(max-width:314px)
+{
+    .breakLineTwo{
+        display: block;
     }
 }
 
