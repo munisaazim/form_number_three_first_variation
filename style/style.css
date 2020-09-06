@@ -487,3 +487,15 @@
     max-width: 520px;
    }
     }
+
+/* Photo Two*/
+.photoTwo{
+    flex: 1 1 50%;
+    max-width: 50%;
+    margin-bottom: 1.25rem;
+    order: 2;
+    margin-left: 10%;
+}
+.photoTwo img{
+    max-width: 100%;
+}
