@@ -1,474 +1,489 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
-*{
-    font-family: 'Mulish', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-weight: 400;
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+    *{
+        font-family: 'Mulish', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-weight: 400;
 
-}
-/*Header with photo*/
-.header{
+    }
+    /*Header with photo*/
+    .header{
 
-    background: url('../image/banner.jpg') no-repeat center center fixed;
-    height: 450px;
-    background-size: cover;
-}
-.image{
-    background-color: #587FCE;
-    background-blend-mode: multiply;
-}
-h1{
-    margin-top: 3.5em;
-    font-size: 2.875rem;
-    line-height: 1.30435em;
-    font-weight:900;
-    color: white;
-   
-}
-.title{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    width: 90%;
-    align-items: center;
-}
-p{
-    font-size: 1.125rem;
-    line-height: 1.61111em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: white;
-}
-/*Two card*/
-.card{
-    margin: 0 auto;
-    padding: 0 2rem;
-    box-sizing: content-box;
-    display: flex;
-    max-width: 1080px;
-    position: relative;
-    flex-direction: row;
-    top: -60px;
-}
-/*Two card (Card One)*/
-.cardOne{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 32px 40px;
-    background-color: #fff;
-    border: 1px solid #eaf0f6;
-    margin-right: 20px;
-
-}
-img.telephone
-{
-    height: 50px;
-    width: 50px;
-    margin-bottom: 24px;
-}
-.cardOne h3{
-    color: #33475b;
-    margin-bottom: 24px;
-    font-size: 20px;
-    font-weight:800;
-}
-.cardOne p{
-    color: black;
-}
-.cardOne a::after{
-    content: "\a";
-    white-space: pre;
-}
-.cardOne a.call{
-    text-decoration: none;
-    color: #0091ae;
-    font-weight:800;
-    font-size: 20px;
-    padding: 0.75rem 0;
-    margin-bottom: 24px;
-}
-.cardOne a.call:hover{
-    color: #007A8C;
-}
-.cardOne a.contact{
-    text-decoration: none;
-    color: #0091ae;
-    margin-bottom: 14px;
-    font-size: 20px;
-    font-weight:800;
-}
-.cardOne a.contact:hover{
-    color: #007A8C;
-}
-.cardOne i.fa-angle-down{
-    margin-bottom: 14px;
-    font-size: 20px;
-    color: #007A8C;
-}
-.cardOne i.fa-angle-down:hover{
-    color: #007A8C;
-    cursor: pointer;
-}
-/*Two card (Card Two)*/
-.cardTwo
-{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 32px 40px;
-    background-color: #fff;
-    border: 1px solid #eaf0f6;
-}
-.cardTwo img.chat{
-    height: 50px;
-    width: 50px;
-    margin-bottom: 24px;
-}
-.cardTwo h3{
-    color: #33475b;
-    margin-bottom: 24px;
-    font-size: 20px;
-    font-weight:800;
-}
-.cardTwo p{
-    color: black;
-    margin-bottom: 24px;
-}
-.cardTwo a{
-    text-decoration: none;
-    border: 2px solid#ff7a59;
-    background-color: #ff7a59;
-    padding: 0.9em 1.388em 0.6em;
-    color: whitesmoke;
-    transition: 0.3s ease-in-out;
-    text-align: center;
-    border-radius: .1875rem;
-}
-.cardTwo a:hover{
-    border: 2px solid rgb(255, 188, 172);
-    background-color: rgb(255, 188, 172);
-    color: #33475b;
-
-}
-/*Media for card*/
-@media(max-width:767px){
+        background: url('../image/banner.jpg') no-repeat center center fixed;
+        height: 450px;
+        background-size: cover;
+    }
+    .image{
+        background-color: #587FCE;
+        background-blend-mode: multiply;
+    }
+    h1{
+        margin-top: 3.5em;
+        font-size: 2.875rem;
+        line-height: 1.30435em;
+        font-weight:900;
+        color: white;
+    
+    }
     .title{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 90%;
+        align-items: center;
+    }
+    p{
+        font-size: 1.125rem;
+        line-height: 1.61111em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: white;
+    }
+    /*Two card*/
+    .card{
+        margin: 0 auto;
+        padding: 0 2rem;
+        box-sizing: content-box;
+        display: flex;
+        max-width: 1080px;
+        position: relative;
+        flex-direction: row;
+        top: -60px;
+    }
+    /*Two card (Card One)*/
+    .cardOne{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 32px 40px;
+        background-color: #fff;
+        border: 1px solid #eaf0f6;
+        margin-right: 20px;
+
+    }
+    img.telephone
+    {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 24px;
+    }
+    .cardOne h3{
+        color: #33475b;
+        margin-bottom: 24px;
+        font-size: 20px;
+        font-weight:800;
+    }
+    .cardOne p{
+        color: black;
+    }
+    .cardOne a::after{
+        content: "\a";
+        white-space: pre;
+    }
+    .cardOne a.call{
+        text-decoration: none;
+        color: #0091ae;
+        font-weight:800;
+        font-size: 20px;
+        padding: 0.75rem 0;
+        margin-bottom: 24px;
+    }
+    .cardOne a.call:hover{
+        color: #007A8C;
+    }
+    .cardOne a.contact{
+        text-decoration: none;
+        color: #0091ae;
+        margin-bottom: 14px;
+        font-size: 20px;
+        font-weight:800;
+    }
+    .cardOne a.contact:hover{
+        color: #007A8C;
+    }
+    .cardOne i.fa-angle-down{
+        margin-bottom: 14px;
+        font-size: 20px;
+        color: #007A8C;
+    }
+    .cardOne i.fa-angle-down:hover{
+        color: #007A8C;
+        cursor: pointer;
+    }
+    /*Two card (Card Two)*/
+    .cardTwo
+    {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 32px 40px;
+        background-color: #fff;
+        border: 1px solid #eaf0f6;
+    }
+    .cardTwo img.chat{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 24px;
+    }
+    .cardTwo h3{
+        color: #33475b;
+        margin-bottom: 24px;
+        font-size: 20px;
+        font-weight:800;
+    }
+    .cardTwo p{
+        color: black;
+        margin-bottom: 24px;
+    }
+    .cardTwo a{
+        text-decoration: none;
+        border: 2px solid#ff7a59;
+        background-color: #ff7a59;
+        padding: 0.9em 1.388em 0.6em;
+        color: whitesmoke;
+        transition: 0.3s ease-in-out;
+        text-align: center;
+        border-radius: .1875rem;
+    }
+    .cardTwo a:hover{
+        border: 2px solid rgb(255, 188, 172);
+        background-color: rgb(255, 188, 172);
+        color: #33475b;
+
+    }
+    /*Media for card*/
+    @media(max-width:767px){
+        .title{
+            width:100%;
+        }
+    .card{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        top: -30px;
+    }
+    .cardOne{
+        width: 80%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .cardTwo{
+        width: 80%;
+    }
+    }
+    /*Map*/
+    .adressContainer{
         width:100%;
     }
-  .card{
-      flex-flow: column;
-     justify-content: center;
-     align-items: center;
-     top: -30px;
-  }
-  .cardOne{
-      width: 80%;
-      margin-right: 0px;
-      margin-bottom: 30px;
-  }
-  .cardTwo{
-    width: 80%;
-}
-}
-/*Map*/
-.adressContainer{
-    width:100%;
-}
-.adressContainer h2{
-    padding: 2.25em 0 1em;
-    display: flex;
-    justify-content: center;
-   color: #33475B;
-   font-weight: 900;
-   padding-bottom: 4em;
-}
-.mapContainer{
-    max-width: 1080px;
-    display: flex;
-    margin: 0 auto;
-    border: #33475b 1px solid;
-}
-.addressMap{
-    width:60%;
-}
-.location{
-    width:35%;
-    display: flex;
-    flex-flow: column;
-    margin-left: 30px;
-    margin-top: 60px;
-}
-.street{
-    margin-bottom: 2rem;
-}
-
-.street h3{
-    color: #33475B;
-    font-weight: 800;
-    font-size: 1.375rem;
-    line-height: 1.36364em;
-    margin-bottom: 15px;
-}
-.street p{
-    color:#33475B;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0;
-}
-.phone{
-    margin-bottom: 2rem;
-}
-.phone h3{
-    color: #33475B;
-    font-weight: 800;
-    font-size: 1.375rem;
-    line-height: 1.36364em;
-    margin-bottom: 15px;
-}
-.phone p{
-    color:#33475B;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0;
-}
-.phone p.fax{
-    margin-top: 20px;
-}
-.phone p span{
-    color: #33475B;
-    font-weight: 800;
-}
-.press{
-    margin-bottom: 2rem;
-}
-.press h3{
-    color: #33475B;
-    font-weight: 800;
-    font-size: 1.375rem;
-    line-height: 1.36364em;
-    margin-bottom: 15px;
-}
-.press a{
-    text-decoration:none;
-    color: #007A8C;
-    font-weight: 700;
-}
-.press a:hover{
- text-decoration-line: underline;
-    text-decoration-color:#007A8C;
-}
-.breakLine , .breakLineTwo{
-    display: none;
-}
-@media(max-width:767px){
-    .mapContainer{
-        width: 80%;
+    .adressContainer h2{
+        padding: 2.25em 0 1em;
         display: flex;
         justify-content: center;
+    color: #33475B;
+    font-weight: 900;
+    padding-bottom: 4em;
+    }
+    .mapContainer{
+        max-width: 1080px;
+        display: flex;
+        margin: 0 auto;
         border: #33475b 1px solid;
-        flex-flow: column;
     }
     .addressMap{
-        width: 100%;
+        width:60%;
     }
     .location{
-        width: 80%;
-        margin-right:5px;
+        width:35%;
+        display: flex;
+        flex-flow: column;
+        margin-left: 30px;
+        margin-top: 60px;
     }
-}
-@media(max-width:350px)
-{
-    .breakLine{
-        display: block;
+    .street{
+        margin-bottom: 2rem;
     }
-}
-@media(max-width:314px)
-{
-    .breakLineTwo{
-        display: block;
+
+    .street h3{
+        color: #33475B;
+        font-weight: 800;
+        font-size: 1.375rem;
+        line-height: 1.36364em;
+        margin-bottom: 15px;
     }
-}
-/*Office Container*/
-.officeContainer{
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 30px;
-    box-sizing: content-box;
-    
-}
-.officeTwo{
-    padding: 2rem;
-}
-label.show{
-    position: relative;
-    top:-45px;
-    left: -45px;
-   
-}
-.officeContainer h3{
-    display: flex;
-  
-}
-.fa-angle-down{
-    font-size:30px;
-    font-weight: 700;
-    color:#00A4BD;
-
-}
-input.inputArrow{
-    position: relative;
-    left:15px;
-    top:-40px;
-    display: none;
-   
-}
-.itemParagraph{
-    display: none;
-}
-.show{
-    display: block;
-    color: black;
-    line-height: 70px;
-    font-weight: 600;
-    padding: 0 20px;
-    font-size: 18px;
-    cursor: pointer;
-
-}
-[id^=btn]:checked~.itemParagraph{
-    display: block;
-}
-[id^=btn]:checked+ label.show2{
-    display: none;
-}
-/*Hovering child element but style parent element*/
-
-/* label.show2{
-display: block;
-position: relative;
-top: -100px;
-left: -20px;
-}
-label.show2 i.fa-angle-right{
-    font-size:30px;
-    font-weight: 700;
-    color:#00A4BD;
-}
-input.inputArrow2{
-    position: relative;
-    left:-22px;
-    top:-200px;    
-}
-[id^=btn2]:checked~label.show i{
-    display: none;
-} */
-.itemParagraph p{
-   color: #33475B;
-}
-.itemParagraph p span.driving {
-    font-weight: 700;
-}
-.itemParagraph p a{
-    text-decoration:none;
-    color: #0091ae;
-    font-weight: 800;
-}
-/*Responsiveness of find Office*/
-@media(max-width:767px){
+    .street p{
+        color:#33475B;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0;
+    }
+    .phone{
+        margin-bottom: 2rem;
+    }
+    .phone h3{
+        color: #33475B;
+        font-weight: 800;
+        font-size: 1.375rem;
+        line-height: 1.36364em;
+        margin-bottom: 15px;
+    }
+    .phone p{
+        color:#33475B;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0;
+    }
+    .phone p.fax{
+        margin-top: 20px;
+    }
+    .phone p span{
+        color: #33475B;
+        font-weight: 800;
+    }
+    .press{
+        margin-bottom: 2rem;
+    }
+    .press h3{
+        color: #33475B;
+        font-weight: 800;
+        font-size: 1.375rem;
+        line-height: 1.36364em;
+        margin-bottom: 15px;
+    }
+    .press a{
+        text-decoration:none;
+        color: #007A8C;
+        font-weight: 700;
+    }
+    .press a:hover{
+    text-decoration-line: underline;
+        text-decoration-color:#007A8C;
+    }
+    .breakLine , .breakLineTwo{
+        display: none;
+    }
+    @media(max-width:767px){
+        .mapContainer{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            border: #33475b 1px solid;
+            flex-flow: column;
+        }
+        .addressMap{
+            width: 100%;
+        }
+        .location{
+            width: 80%;
+            margin-right:5px;
+        }
+    }
+    @media(max-width:350px)
+    {
+        .breakLine{
+            display: block;
+        }
+    }
+    @media(max-width:314px)
+    {
+        .breakLineTwo{
+            display: block;
+        }
+    }
+    /*Office Container*/
+    .officeContainer{
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 30px;
+        box-sizing: content-box;
+        
+    }
     .officeTwo{
         padding: 2rem;
     }
-}
-@media(max-width:370px){
     label.show{
         position: relative;
         top:-45px;
         left: -45px;
-       
+    
     }
-}
-@media(max-width:313px){
-    label.show{
+    .officeContainer h3{
+        display: flex;
+    
+    }
+    .fa-angle-down{
+        font-size:30px;
+        font-weight: 700;
+        color:#00A4BD;
+
+    }
+    input.inputArrow{
         position: relative;
-        top:-65px;
-        left: -45px;
-       
+        left:15px;
+        top:-40px;
+        display: none;
+    
     }
-}
-@media(max-width:224px){
-    label.show{
-        top:-75px;
+    .itemParagraph{
+        display: none;
     }
-}
-@media(max-width:224px){
-    label.show{
-        top:-95px;
+    .show{
+        display: block;
+        color: black;
+        line-height: 70px;
+        font-weight: 600;
+        padding: 0 20px;
+        font-size: 18px;
+        cursor: pointer;
+
     }
-}
-@media(max-width:192px){
-    label.show{
-        top:-105px;
+    [id^=btn]:checked~.itemParagraph{
+        display: block;
     }
-}
-@media(max-width:186px){
-    label.show{
-        top:-115px;
+    [id^=btn]:checked+ label.show2{
+        display: none;
     }
-}
-@media(max-width:175px){
-    label.show{
-        top:-135px;
+    /*Hovering child element but style parent element*/
+
+    /* label.show2{
+    display: block;
+    position: relative;
+    top: -100px;
+    left: -20px;
     }
-}
-/*Different Offices in Different Locations*/
-.placeContainer{
-    background: #f5f8fa;
-    padding: 3.125rem 0;
-}
-.UsOffice{
-    max-width: 1080px;
-    margin:0 auto;
-    box-sizing: content-box;
-    padding: 0 2rem;
+    label.show2 i.fa-angle-right{
+        font-size:30px;
+        font-weight: 700;
+        color:#00A4BD;
+    }
+    input.inputArrow2{
+        position: relative;
+        left:-22px;
+        top:-200px;    
+    }
+    [id^=btn2]:checked~label.show i{
+        display: none;
+    } */
+    .itemParagraph p{
+    color: #33475B;
+    }
+    .itemParagraph p span.driving {
+        font-weight: 700;
+    }
+    .itemParagraph p a{
+        text-decoration:none;
+        color: #0091ae;
+        font-weight: 800;
+    }
+    /*Responsiveness of find Office*/
+    @media(max-width:767px){
+        .officeTwo{
+            padding: 2rem;
+        }
+    }
+    @media(max-width:370px){
+        label.show{
+            position: relative;
+            top:-45px;
+            left: -45px;
+        
+        }
+    }
+    @media(max-width:313px){
+        label.show{
+            position: relative;
+            top:-65px;
+            left: -45px;
+        
+        }
+    }
+    @media(max-width:224px){
+        label.show{
+            top:-75px;
+        }
+    }
+    @media(max-width:224px){
+        label.show{
+            top:-95px;
+        }
+    }
+    @media(max-width:192px){
+        label.show{
+            top:-105px;
+        }
+    }
+    @media(max-width:186px){
+        label.show{
+            top:-115px;
+        }
+    }
+    @media(max-width:175px){
+        label.show{
+            top:-135px;
+        }
+    }
+    /*Different Offices in Different Locations*/
+    .placeContainer{
+        background: #f5f8fa;
+        padding: 3.125rem 0;
+    }
+    .UsOffice{
+        max-width: 1080px;
+        margin:0 auto;
+        box-sizing: content-box;
+        padding: 0 2rem;
 
 
-}
-.placesContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: none;
-    margin: 0 0 6.25rem;
-}
-.photo{
-    flex: 1 1 50%;
-    max-width: 50%;
-    margin-bottom: 0;
-    margin-right: 10%;
-   
-}
-.photo img{
-    max-width: 100%;
-}
-.info{
-    flex: 1;
-    max-width: 895px;
-}
-.info h4{
-    color: #33475B;
-    font-weight: 800;
-    font-size: 1.375rem;
-}
-.info p{
-    color: #33475B;
-}
-.info p span.adressTwo{
-    color: #33475B;
-    font-weight: 800;
-}
+    }
+    .placesContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: none;
+        margin: 0 0 6.25rem;
+    }
+    .photo{
+        flex: 1 1 50%;
+        max-width: 50%;
+        margin-bottom: 1.25rem;
+        margin-right: 10%;
+    
+    }
+    .photo img{
+        max-width: 100%;
+    }
+    .info{
+        flex: 1;
+        max-width: 895px;
+    }
+    .info h4{
+        color: #33475B;
+        font-weight: 800;
+        font-size: 1.375rem;
+    }
+    .info p{
+        color: #33475B;
+    }
+    .info p span.adressTwo{
+        color: #33475B;
+        font-weight: 800;
+    }
+    /*responsiveness*/
+    @media(max-width:767px){
+   .UsOffice{
+    max-width: 525px;
+       margin: 0 auto 3.125rem;
+   }
+   .placesContainer{
+      flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+   }
+   .photo{
+    max-width: 520px;
+   }
+    }
