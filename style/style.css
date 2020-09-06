@@ -380,3 +380,51 @@ input.inputArrow2{
     font-weight: 800;
 }
 /*Responsiveness of find Office*/
+@media(max-width:767px){
+    .officeTwo{
+        padding: 2rem;
+    }
+}
+@media(max-width:370px){
+    label.show{
+        position: relative;
+        top:-45px;
+        left: -45px;
+       
+    }
+}
+@media(max-width:313px){
+    label.show{
+        position: relative;
+        top:-65px;
+        left: -45px;
+       
+    }
+}
+@media(max-width:224px){
+    label.show{
+        top:-75px;
+    }
+}
+@media(max-width:224px){
+    label.show{
+        top:-95px;
+    }
+}
+@media(max-width:192px){
+    label.show{
+        top:-105px;
+    }
+}
+@media(max-width:186px){
+    label.show{
+        top:-115px;
+    }
+}
+@media(max-width:175px){
+    label.show{
+        top:-135px;
+    }
+}
+
+
