@@ -499,3 +499,20 @@
 .photoTwo img{
     max-width: 100%;
 }
+   /*responsiveness*/
+   @media(max-width:767px){
+    .UsOffice{
+     max-width: 525px;
+        margin: 0 auto 3.125rem;
+    }
+    .placesContainer{
+       flex-direction: column;
+     justify-content: unset;
+     align-items: unset;
+    }
+    .photoTwo{
+     max-width: 520px;
+     margin-left: 0%;
+     order: 0;
+    }
+     }
