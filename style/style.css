@@ -436,8 +436,6 @@
         margin:0 auto;
         box-sizing: content-box;
         padding: 0 2rem;
-
-
     }
     .placesContainer{
         display: flex;
@@ -591,6 +589,7 @@
         .phonesContainer h3{
             justify-content: flex-start;
             margin-left: 3rem;
+          
          }
         .allPhones{
             display: flex;
@@ -611,6 +610,30 @@
          }
      }
      /*Footer*/
+     .footer{
+        background: #33475B;
+     }
+     .footerContainer{
+        max-width: 1080px;
+        margin:0 auto;
+      
+      }
      .footerBody{
          display: flex;
+         justify-content: center;
      }
+   .footer .PhoneThree h5{
+       color: #fff;
+       font-size: 1.125rem;
+       line-height: 1.44444em;
+       font-weight: 700;
+   }
+   .footer .PhoneThree p a{
+    text-decoration: none;
+    color: #cbd6e2;
+    font-size: 0.875rem;
+    padding: 0.5rem 0
+   }
+   .footer .PhoneThree p a:hover{
+    color: rgb(127, 209, 222);
+   }
