@@ -611,6 +611,7 @@
      }
      /*Footer*/
      .footer{
+         margin-top:100px;
         background: #33475B;
      }
      .footerContainer{
@@ -637,3 +638,11 @@
    .footer .PhoneThree p a:hover{
     color: rgb(127, 209, 222);
    }
+   /*Responsiveness*/
+   @media(max-width:767px){
+    .footerBody{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;  
+     }
+    }
