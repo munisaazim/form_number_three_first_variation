@@ -523,13 +523,13 @@
      }
      .phonesContainer h2{
          margin-top: 50px;
-         margin-bottom: 90px;
          display: flex;
          justify-content: center;
          color: #33475B;
          font-weight: 900; 
      }
      .phonesContainer h3{
+        margin-top: 90px;
          display: flex;
          justify-content: center;
          color: #33475B;
@@ -552,6 +552,7 @@
         font-size: 1.25rem;
         line-height: 1.4em;
         font-weight: 700;
+        color: #33475B;
      }
      .PhoneOne p{
         color: #33475B;
@@ -566,6 +567,7 @@
         font-size: 1.25rem;
         line-height: 1.4em;
         font-weight: 700;
+        color: #33475B;
      }
      .PhoneTwo p{
         color: #33475B;
