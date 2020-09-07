@@ -588,6 +588,10 @@
         color: #33475B;
      }
      @media(max-width:767px){
+        .phonesContainer h3{
+            justify-content: flex-start;
+            margin-left: 3rem;
+         }
         .allPhones{
             display: flex;
             flex-flow: column;
